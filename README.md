@@ -2,16 +2,17 @@
 A project to attempt predicting the winning team of NCAA Division I Men's Basketball games.
 
 See blog post here: (pending)
+
 ---
 ## Repo Layout
 - README.md
 - code
- - NCAA_Notebook.ipynb <-- Where I conducted all EDA, feature engineering, and modeling
- - NCAA_Scraper.ipynb <-- A collection of the scraper code implemented for acquiring data
- - graveyard <-- Directory of superceded files
-  - NCAA_AWS_calc.ipynb <-- An attempt at hosting a computationally intensive step on AWS. An alternate strategy was implemented
-  - NCAA_AWS_calc.py <-- .py version of the file above
-  - NCAA-Notebook_superceded.ipynb <-- An attempt at first predicting player-by-player and then team-by-team scores per game event. Proved to be very difficult, with disappointing results. 
+  - NCAA_Notebook.ipynb <-- Where I conducted all EDA, feature engineering, and modeling
+  - NCAA_Scraper.ipynb <-- A collection of the scraper code implemented for acquiring data
+  - graveyard <-- Directory of superceded files
+    - NCAA_AWS_calc.ipynb <-- An attempt at hosting a computationally intensive step on AWS. An alternate strategy was implemented
+    - NCAA_AWS_calc.py <-- .py version of the file above
+    - NCAA-Notebook_superceded.ipynb <-- An attempt at first predicting player-by-player and then team-by-team scores per game event. Proved to be very difficult, with disappointing results. 
   - data
    - player_boxscores_df.csv <-- Produced from play_boxscores directory
    - myteam_ewm_df.csv <-- Produced from myteam_ewm directory
