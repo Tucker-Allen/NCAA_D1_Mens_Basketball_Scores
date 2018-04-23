@@ -1,7 +1,7 @@
 # NCAA D1 Men's Basketball Predctions
 A project to attempt predicting the winning team of NCAA Division I Men's Basketball games.
 
-See blog post here: (pending)
+See blog post here: https://tucker-allen.github.io/NCAA_Basketball/
 
 ---
 ## Repo Layout
